@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "alice",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "username": "bob",
+      "password": "password"
+    }
+  ],
+  "carts": {
+    "1": [],
+    "2": [
+      {
+        "productId": "73b3b4f7-89fb-4911-8c4c-3a5ca2b70b46",
+        "name": "RTN M MUG 1.5L POLKA",
+        "price": 46,
+        "qty": 1,
+        "image": "https://placehold.co/200x200"
+      }
+    ]
+  }
+}
