@@ -86,5 +86,5 @@ app.post('/login', async (req, res) => {
   }
 });
 
-const PORT = 6446;
-app.listen(PORT, () => console.log(`Auth server listening on http://localhost:${PORT}`));
+// Vercel will handle the server creation
+module.exports = app;
